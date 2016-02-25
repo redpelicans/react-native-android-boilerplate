@@ -1,13 +1,13 @@
 {
   "name": "react_native_android_boilerplate",
-  "description": "A react-native boilerplate android starter kit.",
+  "description": "A react-native boilerplate android starter kit. (with babel 6)",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "android": "react-native run-android",
     "start": "npm run cleanCache && node node_modules/react-native/local-cli/cli.js start",
     "cleanCache": "rm -rf $TMPDIR/react-*",
-    "postinstall": "react-native upgrade"
+    "postinstall": "react-native upgrade && react-native upgrade"
   },
   "dependencies": {
     "react-native": "^0.20.0"
