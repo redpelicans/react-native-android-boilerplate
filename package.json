@@ -1,5 +1,5 @@
 {
-  "name": "react_native_android_boilerplate",
+  "name": "myApp",
   "description": "A react-native boilerplate android starter kit. (with babel 6)",
   "version": "0.0.1",
   "private": true,
@@ -7,16 +7,17 @@
     "android": "react-native run-android",
     "start": "npm run cleanCache && node node_modules/react-native/local-cli/cli.js start",
     "cleanCache": "rm -rf $TMPDIR/react-*",
-    "init": "react-native upgrade && react-native android"
+    "native-init": "react-native upgrade && react-native android",
+    "native-rename": "rm -rf ios android ; mv index.android.js .index.android.js.tmp 2> /dev/null || true ; react-native upgrade && react-native android ; mv .index.android.js.tmp index.android.js 2> /dev/null || true"
   },
   "dependencies": {
+    "react-native-cli": "^0.1.10",
     "react-native": "^0.20.0"
   },
   "devDependencies": {
     "babel": "^6.5.2",
     "babel-core": "^6.5.2",
     "babel-preset-react-native": "^1.4.0",
-    "babel-preset-stage-0": "^6.5.0",
-    "react-native-cli": "^0.1.10"
+    "babel-preset-stage-0": "^6.5.0"
   }
 }
