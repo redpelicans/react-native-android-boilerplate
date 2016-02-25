@@ -7,7 +7,7 @@
     "android": "react-native run-android",
     "start": "npm run cleanCache && node node_modules/react-native/local-cli/cli.js start",
     "cleanCache": "rm -rf $TMPDIR/react-*",
-    "postinstall": "react-native upgrade && react-native upgrade"
+    "init": "react-native upgrade && react-native upgrade"
   },
   "dependencies": {
     "react-native": "^0.20.0"
