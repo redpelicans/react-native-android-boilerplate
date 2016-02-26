@@ -8,10 +8,10 @@
     "start": "npm run cleanCache && node node_modules/react-native/local-cli/cli.js start",
     "cleanCache": "rm -rf $TMPDIR/react-*",
     "native-init": "react-native upgrade && react-native android",
-    "native-rename": "rm -rf ios android ; mv index.android.js .index.android.js.tmp 2> /dev/null || true ; react-native upgrade && react-native android ; mv .index.android.js.tmp index.android.js 2> /dev/null || true"
+    "native-rename": "rm -rf ios android ; mv index.android.js .index.android.js.tmp 2> /dev/null || true ; react-native upgrade && react-native android ; mv .index.android.js.tmp index.android.js 2> /dev/null || true",
+    "postinstall": "rm -f node_modules/.bin/react-native"
   },
   "dependencies": {
-    "react-native-cli": "^0.1.10",
     "react-native": "^0.20.0"
   },
   "devDependencies": {
