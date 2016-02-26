@@ -6,13 +6,11 @@ Installation
 ---------------
 - download boilerplate
 - remove .git folder
-- init your repo
 - install boilerplate
 ```sh
 git clone https://github.com/guillaumearm/react-native-android-boilerplate myApp
 cd myApp
 rm -rf .git
-# git init
 npm install
 ```
 
