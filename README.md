@@ -24,12 +24,14 @@ npm run native-init
 **************************
 Run app
 ---------
+Start the packager
 ```sh
 npm start
 ```
 
 Launch app on your android device
 --------
+If app is not running yet on your device:
 ```sh
 npm run android
 ```
