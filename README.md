@@ -48,10 +48,10 @@ OAuth2 and apk certificates
 - ```make gen-apk-key KEY_ALIAS=<appAliasName>```
 - Edit the file ```~/.gradle/gradle.properties``` and add the following
 ```
-DEFAULT_RELEASE_STORE_FILE=release.keystore
-DEFAULT_RELEASE_KEY_ALIAS=<appAliasName>
-DEFAULT_RELEASE_STORE_PASSWORD=<storePassword>
-DEFAULT_RELEASE_KEY_PASSWORD=<keyPassword>
+MYAPP_RELEASE_STORE_FILE=release.keystore
+MYAPP_RELEASE_KEY_ALIAS=<appAliasName>
+MYAPP_RELEASE_STORE_PASSWORD=<storePassword>
+MYAPP_RELEASE_KEY_PASSWORD=<keyPassword>
 ```
 
 replace ```<appAliasName>```, ```<storePassword>``` and ```<keyPassword>``` by right values
@@ -68,7 +68,7 @@ go here : https://console.developers.google.com/apis/credentials
 
 - Create credentials > OAuth client ID > Android > write your **release** SHA1 key + package name (Application Id like ```com.redpelicans.timetrack```)
 
-### Use react-native-google-signin
+### Use with react-native-google-signin
 Add a credentials of type **'Web'**.
 Use it with clientId props with [GoogleSignin component](https://github.com/apptailor/react-native-google-signin).
 - Create credentials > Web Application

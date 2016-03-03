@@ -83,10 +83,10 @@ gen-apk-key:
 	@keytool -genkey -v -keystore params/release.keystore -alias $(KEY_ALIAS) -keyalg RSA -keysize 2048 -validity 10000
 	@echo --- gen-apk-key done.
 	@echo "--- Edit the file '~/.gradle/gradle.properties' and add the following"
-	@echo "$(KEY_ALIAS)_RELEASE_STORE_FILE=release.keystore"
-	@echo "$(KEY_ALIAS)_RELEASE_KEY_ALIAS=$(KEY_ALIAS)"
-	@echo "$(KEY_ALIAS)_RELEASE_STORE_PASSWORD=<storePassword>"
-	@echo "$(KEY_ALIAS)_RELEASE_KEY_PASSWORD=<keyPassword>"
+	@echo "DEFAULT_RELEASE_STORE_FILE=release.keystore"
+	@echo "DEFAULT_RELEASE_KEY_ALIAS=$(KEY_ALIAS)"
+	@echo "DEFAULT_RELEASE_STORE_PASSWORD=<storePassword>"
+	@echo "DEFAULT_RELEASE_KEY_PASSWORD=<keyPassword>"
 
 show-debug-key:
 	@echo --- Default password is : android && keytool -list -v -keystore ~/.android/debug.keystore
