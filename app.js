@@ -13,7 +13,7 @@ export class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text style={styles.title}>Hello World</Text>
+        <Text style={styles.title}>It works</Text>
       </View>
     )
   }
