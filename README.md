@@ -49,9 +49,9 @@ OAuth2 and apk certificates
 - Edit the file ```~/.gradle/gradle.properties``` and add the following
 ```
 DEFAULT_RELEASE_STORE_FILE=release.keystore
-MYAPP_RELEASE_KEY_ALIAS=<appAliasName>
-MYAPP_RELEASE_STORE_PASSWORD=<storePassword>
-MYAPP_RELEASE_KEY_PASSWORD=<keyPassword>
+DEFAULT_RELEASE_KEY_ALIAS=<appAliasName>
+DEFAULT_RELEASE_STORE_PASSWORD=<storePassword>
+DEFAULT_RELEASE_KEY_PASSWORD=<keyPassword>
 ```
 
 replace ```<appAliasName>```, ```<storePassword>``` and ```<keyPassword>``` by right values

@@ -4,20 +4,10 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "android": "adb reverse tcp:8081 tcp:8081 ; react-native run-android",
-    "start": "npm run cleanCache && node node_modules/react-native/local-cli/cli.js start",
-    "cleanCache": "rm -rf $TMPDIR/react-*",
-    "native-init": "react-native upgrade && react-native android",
-    "native-rename": "rm -rf ios android ; mv index.android.js .index.android.js.tmp 2> /dev/null || true ; react-native upgrade && react-native android ; mv .index.android.js.tmp index.android.js 2> /dev/null || true",
-    "postinstall": "rm -f node_modules/.bin/react-native"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "android": "react-native run-android"
   },
   "dependencies": {
     "react-native": "^0.20.0"
-  },
-  "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.5.2",
-    "babel-preset-react-native": "^1.4.0",
-    "babel-preset-stage-0": "^6.5.0"
   }
 }
