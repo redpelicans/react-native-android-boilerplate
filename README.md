@@ -85,12 +85,33 @@ Use it with clientId props with [GoogleSignin component](https://github.com/appt
 ***********************
 Build release App (signed APK)
 ---------------------
-```make build-release-apk```
+```
+make build-release-apk
+```
 
 Install release App (signed APK)
 ---------------------
-```make install-release-apk```
+```
+make install-release-apk
+```
 
+
+***********************
+Flow type checker
+------------------
+[Flow](http://flowtype.org/) is a **static type checker** for JavaScript. It can be used to catch common bugs in JavaScript programs before they run.
+
+Check the [official documentation](http://flowtype.org/docs/).
+
+### In practice
+For say to flow what file you want to check
+- Add this comment at the top of the file :
+```javascript
+/* @flow */
+```
+
+
+More info [on this page](http://flowtype.org/docs/existing.html).
 
 ***********************
 Troubleshooting
