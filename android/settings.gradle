@@ -1,4 +1,4 @@
-rootProject.name = 'myApp'
+rootProject.name = 'RNApp'
 
 include ':app'
 

@@ -7,7 +7,7 @@ import React, {
   Navigator,
 } from 'react-native';
 
-// import {GoogleSignin, GoogleSigninButton} from 'react-native-google-signin'
+import {GoogleSignin, GoogleSigninButton} from 'react-native-google-signin'
 // doc here : https://github.com/apptailor/react-native-google-signin
 
 export class App extends Component {

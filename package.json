@@ -8,8 +8,8 @@
     "android": "react-native run-android"
   },
   "dependencies": {
-    "react-native": "^0.21.0",
-    "react-native-google-signin": "^0.4.2"
+    "react-native": "^0.20.0",
+    "react-native-google-signin": "github:guillaumearm/react-native-google-signin"
   },
   "devDependencies": {
     "babel": "^6.5.2",
