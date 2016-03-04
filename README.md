@@ -11,6 +11,15 @@ run ```make help``` for more informations
 
 For a better experience, we embedded [react-native-google-signin](https://github.com/apptailor/react-native-google-signin) component.
 
+### Android SDK Requirements
+Need install 2 extra packages.
+Go in the Android SDK Manager running : ``` android ```
+
+Install this packages:
+- Local Maven repository for Support Libraries
+- Google repository
+
+
 ***********************
 Installation
 ------------------
