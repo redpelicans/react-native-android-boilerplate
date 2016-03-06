@@ -1,0 +1,1 @@
+import EStyleSheet from 'react-native-extended-stylesheet' ; export default EStyleSheet.create({"main_title":{"alignSelf":"center","fontSize":32,"marginTop":20,"marginBottom":20,"marginRight":20,"marginLeft":20},"container":{"backgroundColor":"'rgb(232, 232, 200)'"}});
