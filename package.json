@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "react-native": "^0.20.0",
-    "react-native-google-signin": "github:guillaumearm/react-native-google-signin"
+    "react-native-extended-stylesheet": "^0.1.7",
+    "react-native-google-signin": "github:guillaumearm/react-native-google-signin",
+    "react-native-material-design-styles": "^0.2.6"
   },
   "devDependencies": {
     "babel": "^6.5.2",
